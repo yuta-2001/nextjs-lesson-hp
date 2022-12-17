@@ -2,7 +2,7 @@ import Layout from "../components/Layout"
 import Image from "next/image"
 import Link from "next/link"
 
-function Contact() {
+export default function Contact() {
 	return (
 		<Layout title="contact">
 			<div className="bg-white text-center shadow-xl p-8 w-80 rounded">
@@ -81,5 +81,3 @@ function Contact() {
 		</Layout>
 	)
 }
-
-export default Contact
